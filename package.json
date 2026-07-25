@@ -1,0 +1,20 @@
+{
+  "name": "logicpulse-interactive-mz-save-load-ui",
+  "version": "0.1.0",
+  "description": "Modern SAVE/LOAD UI Plugin for RPG Maker MZ",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "watch": "chokidar \"src/**/*.js\" -c \"npm run build\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahriman1374/LOGICPULSE-INTERACTIVE-MZ-SAVE-LOAD-UI.git"
+  },
+  "author": "LOGICPULSE",
+  "license": "MIT",
+  "devDependencies": {
+    "chokidar-cli": "^3.0.0"
+  }
+}
